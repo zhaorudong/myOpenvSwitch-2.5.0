@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include <time.h>  
+void writeC(){
+FILE *fpt;
+time_t timep;    
+time(&timep);  
+
+fpt = fopen("/home/zrd/wendangming.txt","w");
+fprintf(fpt,"Hello world %s",asctime(gmtime(&timep)));
+fclose(fpt);
+
+}

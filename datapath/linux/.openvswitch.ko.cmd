@@ -1,0 +1,1 @@
+cmd_/home/zrd/openvswitch-2.5.0/datapath/linux/openvswitch.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/zrd/openvswitch-2.5.0/datapath/linux/openvswitch.ko /home/zrd/openvswitch-2.5.0/datapath/linux/openvswitch.o /home/zrd/openvswitch-2.5.0/datapath/linux/openvswitch.mod.o
